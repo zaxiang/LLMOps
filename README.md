@@ -22,11 +22,11 @@ This project demonstrates the integration of a machine learning model using Rust
 
 ## Project Structure
 
-`main.rs`: Sets up the Actix Web server, routes, and CORS configuration.
-`core.rs`: Contains the logic for loading the model, performing inference, and handling errors.
-/src: Contains the model binaries and tokenizer configurations.
-`Cargo.toml`: Manages Rust dependencies and project settings.
-bloom-560m-15_1-ggjt.bin: Rustformer model
+`main.rs`: Sets up the Actix Web server, routes, and CORS configuration. \
+`core.rs`: Contains the logic for loading the model, performing inference, and handling errors. \
+/src: Contains the model binaries and tokenizer configurations. \
+`Cargo.toml`: Manages Rust dependencies and project settings. \
+bloom-560m-15_1-ggjt.bin: Rustformer model \
 
 ## How to run the Project backend
 
