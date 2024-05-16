@@ -1,0 +1,21 @@
+[package]
+name = "artix_backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+actix-rt = "2"
+serde = { version = "1.0", features = ["derive"] }
+
+lambda_http = "0.11.1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.27"
+log = "0.4.14"
+llm = { git = "https://github.com/rustformers/llm" , branch = "main" }
+openssl = { version = "0.10.35", features = ["vendored"] }
+serde_json = "1.0"
+rand = "0.8.5"
+actix-cors = "0.7.0"

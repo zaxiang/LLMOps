@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: artix-backend-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: artix-backend
+  template:
+    metadata:
+      labels:
+        app: artix-backend
+    spec:
+      containers:
+      - name: artix-backend
+        image: cr7forever666/artix_backend:latest
+        ports:
+        - containerPort: 8001

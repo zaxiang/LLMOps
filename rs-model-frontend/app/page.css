@@ -1,0 +1,73 @@
+/* page.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; /* Ensure the font family is correctly formatted */
+    margin-bottom: 20px; /* Separate subtitle from the form */
+  }
+  
+  .input-container {
+    width: 55%; /* Takes up 65% of its parent (container) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    width: 90%; /* Adjusted to make the input fill more of the input-container */
+    display: inline-flex;
+    justify-content: center;
+    flex-grow: 1; /* Ensures it fills the available space within its parent */
+  }
+  
+  .input {
+    width: 100%; /* Makes the input take the full width of its container (form) */
+    border-radius: 12px;
+    padding: 10px; /* Adds padding for aesthetics */
+  }
+  
+/* page.css */
+.button {
+    width: 10%;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007BFF; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Removes default border */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color and transform */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .button:focus {
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Adds a focus ring */
+  }
+  
+  .button:active {
+    transform: scale(0.95); /* Slightly scale down when clicked */
+  }
+
+.response {
+    margin-top: 20px;
+    color: #333;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
